@@ -1,0 +1,56 @@
+<---Task 1: Implement a multi-column form layout using Bootstrap's grid system--->
+    <div class="container mt-5">
+        <form>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+<--Task 2: Create an inline form layout for a contact form.-->
+    <div class="container mt-5">
+        <form class="row gx-2 align-items-center">
+          <div class="col-auto">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="col-auto">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+
+<--Task 3: Implement a stacked form layout with labels above input fields.-->
+    <div class="container mt-5">
+        <form>
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
